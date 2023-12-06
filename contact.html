@@ -38,6 +38,60 @@ Student Number: c0852659
 	</nav>
 
 	<main>
+	<h1>Instructions</h1>
+	<ol>
+		<li>Fill out form</li>
+		<li>Submit form</li>
+		<li>Reset form if you want to choose different answers</li>
+	</ol>
+	
+	<form action="form.php" method="get">
+		<fieldset>
+			<legend>Questions</legend>
+			<label for"Name">Name</label>
+			<input type="text" id="Name" value="Name" size="10em">
+			
+			<div id="radio">
+				
+				<label class="radio-inline">Regular Waffle?</label>
+				<input type="radio" id="Fav_waffle" name="radio" value="Fav1">
+
+				<label class="radio-inline">Belgian Waffle?</label>
+				<input type="radio" id="Fav_waffle" name="radio" value="Fav2" checked>
+				
+				<label class="radio-inline">Pancake?</label>
+				<input type="radio" id="Fav_waffle" name="radio" value="Fav3">
+			
+			</div>
+			
+			<label for="obviously">Do You Like Waffles</label>
+			<input type="checkbox" id="Yes" required>
+			
+			<label for="poetry">Write a sonnet about waffles</label>
+			<textarea id="poetry" value=" rows="50" cols="50"></textarea>
+			
+			<label for="Date">When was the first waffle created?</label>
+			<input type="date" id="Date">
+			
+			<label for="Email">Email</label>
+			<input type="email" id="Email">
+			
+			<label>Choose a Type of waffle</label>
+			<select>
+				<option>Crepe</option>
+				<option>Pancake</option>
+				<option>Waffle</option>
+			</select>
+			
+			<label for="Waffles?">Waffles?</label>
+			<input type="button" id="Waffles?" value="Waffles?">
+			
+			<label for="submit">Submit</label>
+			<input type="button" id="submit" value="submit">
+			
+			<label for="reset">Reset</label>
+			<input type="reset" id="reset" value="reset">
+		</fieldset>
 	</main>
 	
     </div>

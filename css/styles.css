@@ -11,7 +11,7 @@ body, header, nav, main, footer, h1, div, img, ul, li {
 
 body {
 	text-align: center;
-	background-color: #000;
+	background-color: grey;
 	font-family: 'Francois One', sans-serif;
 	color: #FFFFFF;
 }
@@ -101,6 +101,43 @@ footer {
 	font-size: 0.5em;
 	margin-top: 5%;
 }
+
+#form {
+	margin-top: 2%;
+	background-color: #f2f2f2;
+	padding: 2%;
+}
+
+ol {
+	text-align: left;
+}
+
+/*Style rules for form elements*/
+fieldset, input, select, textarea {
+	margin-bottom: 1%;
+}
+
+fieldset legend {
+	font-weight: bold;
+	font-size: 1.25em;
+}
+
+label {
+	text-align: center;
+	display: block;
+	padding-top: 1%;
+}
+
+.radio-inline {
+	display: inline;
+}
+
+#submit {
+	font-size: 1em;
+	border-radius: 10px;
+}
+
+
 
 /*.round {
 	border-radius: 8px;

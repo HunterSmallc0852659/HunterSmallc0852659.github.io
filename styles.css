@@ -1,0 +1,144 @@
+/*Hunter small
+Style sheet
+term project*/
+
+/*CSS Reset*/
+body, header, nav, main, footer, h1, div, img, ul, li {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+body {
+	text-align: center;
+	background-color: grey;
+	font-family: 'Francois One', sans-serif;
+	color: #FFFFFF;
+}
+
+#container {
+	width: 95%;
+}
+
+#hero {
+    width: auto;
+}
+
+header {
+	background-color: #ff7f50;
+	margin: 0 auto;
+	border-radius: 8px;
+	text-shadow: 2px 2px;
+	text-align: center;
+}
+
+header img {
+	margin: 0 auto;
+}
+
+img {
+	max-width: 100%;
+	display: inline-block;
+	border-radius: 10px;
+}
+
+nav {
+	font-family: 'Francois One', sans-serif;
+	text-align: inline;
+	padding: 1%;
+	margin: 1%;
+	border: 1px solid #fff;
+}
+
+nav ul {
+	list-style-type: none;
+	text-align: center;
+}
+
+nav li {
+		text-decoration: none;
+	/*background-color: #ff7f50;*/
+	border-top: none;
+	display: inline-block;
+	border-right: 1px solid #fff;
+}
+
+main {
+	display: block;
+	text-decoration: strong;
+	margin: auto;
+	padding: none;
+	border-radius: 10px;
+	text-shadow: 2px;
+}
+
+h1 {
+	font-size: 3.0em;
+}
+
+h2 {
+	font-size: 2.5em;
+}
+
+h3 {
+	font-size: 2.0em;
+}
+
+h4 {
+	font-size: 1.5em;
+}
+
+h5 {
+	font-size: 1.0em;
+}
+
+h6 {
+	font-size: 0.5em;
+}
+
+footer {
+	text-align: center;
+	font-size: 0.5em;
+	margin-top: 5%;
+}
+
+#form {
+	margin-top: 2%;
+	background-color: #f2f2f2;
+	padding: 2%;
+}
+
+ol {
+	text-align: left;
+}
+
+/*Style rules for form elements*/
+fieldset, input, select, textarea {
+	margin-bottom: 1%;
+}
+
+fieldset legend {
+	font-weight: bold;
+	font-size: 1.25em;
+}
+
+label {
+	text-align: center;
+	display: block;
+	padding-top: 1%;
+}
+
+.radio-inline {
+	display: inline;
+}
+
+#submit {
+	font-size: 1em;
+	border-radius: 10px;
+}
+
+
+
+/*.round {
+	border-radius: 8px;
+}*/
